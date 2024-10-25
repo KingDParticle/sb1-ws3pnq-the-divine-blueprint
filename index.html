@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sacred Geometry</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+      canvas {
+        width: 100vw;
+        height: 100vh;
+      }
+      .overlay {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: 'Arial', sans-serif;
+        font-size: 2em;
+        text-align: center;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 2s;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="overlay" class="overlay">We Are One Mind</div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
